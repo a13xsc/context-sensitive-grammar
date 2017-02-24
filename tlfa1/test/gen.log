@@ -1,0 +1,45 @@
+1 0 7 0 0 0
+python ./var.py 0 7 0 0 0 0 "." g01
+2 0 4 0 13 0
+python ./var.py 0 4 0 13 0 0 "." g02
+python ./var.py 0 4 0 13 1 0 "." g03
+1 0 7 1 0 0
+python ./var.py 0 7 1 0 0 0 "." g04
+3 0 8 7 10 0
+python ./var.py 0 8 7 10 0 0 "." g05
+python ./var.py 0 8 7 10 1 0 "." g06
+python ./var.py 0 8 7 10 1 0 "." g07
+2 7 0 0 8 1
+python ./var.py 7 0 0 8 0 1 "." g08
+python ./var.py 7 0 0 8 1 1 "." g09
+4 2 0 4 19 1
+python ./var.py 2 0 4 19 0 1 "." g10
+python ./var.py 2 0 4 19 1 1 "." g11
+python ./var.py 2 0 4 19 1 1 "." g12
+python ./var.py 2 0 4 19 1 1 "." g13
+4 2 0 14 18 2
+python ./var.py 2 0 14 18 0 2 "." g14
+python ./var.py 2 0 14 18 1 2 "." g15
+python ./var.py 2 0 14 18 1 2 "." g16
+python ./var.py 2 0 14 18 1 2 "." g17
+2 19 15 0 20 0
+python ./var.py 19 15 0 20 0 0 "." g18
+python ./var.py 19 15 0 20 1 0 "." g19
+2 18 2 0 35 1
+python ./var.py 18 2 0 35 0 1 "." g20
+python ./var.py 18 2 0 35 1 1 "." g21
+4 10 15 19 25 0
+python ./var.py 10 15 19 25 0 0 "." g22
+python ./var.py 10 15 19 25 1 0 "." g23
+python ./var.py 10 15 19 25 1 0 "." g24
+python ./var.py 10 15 19 25 1 0 "." g25
+4 1 15 4 5 1
+python ./var.py 1 15 4 5 0 1 "." g26
+python ./var.py 1 15 4 5 1 1 "." g27
+python ./var.py 1 15 4 5 1 1 "." g28
+python ./var.py 1 15 4 5 1 1 "." g29
+4 8 4 8 10 2
+python ./var.py 8 4 8 10 0 2 "." g30
+python ./var.py 8 4 8 10 1 2 "." g31
+python ./var.py 8 4 8 10 1 2 "." g32
+python ./var.py 8 4 8 10 1 2 "." g33

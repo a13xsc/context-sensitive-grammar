@@ -1,0 +1,21 @@
+Aceste teste reprezinta materialul pe care se testeaza functionarea corecta a
+temei 1.
+
+Fisierele sunt:
+-syn{01:50}.in: reprezinta gramatici cu erori sintactice. Fiecare fisier are un singur tip de eroare. Erorile sintactice au prioritate in fata erorilor semantice
+-sem{01:10}.in: reprezinta gramatici cu erori semantice. Fiecare fisier are un singur tip de eroare.
+-g{01:33}.in: reprezinta gramatici corecte. Pentru fiecare fisier se va executa o data cu fiecare intrebare.
+-{yes|no}.out: reprezinta raspunsurile posibile pentru intrebarile --is-void si --has-e
+-empty.*: reprezinta un fisier gol pentru cazul in care iesirea programului trebuie sa nu contina nimic
+-g{01:33}.out: reprezinta raspunsul pentru intrebarea --useless-nonterminals daca gramatica e corecta
+-{argument|syntax|semantic}.err: reprezinta modul corect de afisare pentru o eroare la nivelul argumentelor in linia de comanda, eroare sintactica, respectiv semantica
+-tests: reprezinta datele despre teste referitoare la punctaj si asocierea input output
+-clean.sh: curata testele pentru a putea genera altele. Atentie, daca vreti din nou testele originale, trebuie descarcata din nou arhiva
+-fixed.sh: genereaza partea fixa din tests
+-var.py: genereaza partea variabila din tests. Comanda cere numar de neterminali utili, numar de neterminali inutili, numar de terminali, numar de reguli si tipul de limbaj(vid, nevid care contine sirul vid, nevid fara sirul vid). Pe langa asta comanda poate pune spatii intre simboluri pentru o verificare mai cinstita a corectitudinii
+generate.sh: script care foloseste fixed.sh si var.py pentru a genera fisierul tests si testele atasate
+sort.sh: script care sorteaza toate output-urile pentur a fi usor de ocmparat
+reqs: cerintele de generare a testelor. Contine toate intrarile relevante pentru var.py astfel incat gramatica sa fie valida
+gen.log: reprezinta un log al generarii testelor. In caz ca intalniti probleme, trimiteti acest fisier si testele pentru a verifica problema
+lexer: fisier cu care puteti verifica gramatici scrise de voi de mana
+

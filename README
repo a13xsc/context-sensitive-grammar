@@ -1,0 +1,20 @@
+Nume: CRACIUN Alexandru Sever
+Grupa: CA333
+Pentru citirea gramaticii am urmarit forma pe care trebuie sa o aiba o
+gramatica corecta.
+De asemenea intre oricare doua elemente ce descriu o gramatica
+(fie ele caractere sau paranteze) pot aparea spatii albe.
+Astfel, intai citesc parantezele, apoi citesc elementele din V pe care le adaug
+intr-un set.
+Dupa ce am citit toate elementele din V incepe citirea alfabetului.
+In mod similar, elementele sunt adaugate intr-un set.
+Urmeaza citirea regulilor ce descriu gramatica. Aceste reguli sunt adaugate intr-un map ce are ca si
+cheie neterminalul din partea stanga a regulii iar ca valoare sirul din partea
+dreapta a regulii. In final, se citeste si simbolul de start care este retinut
+intr-o variabila.
+Nerespectarea ordinii de aparitie a caracterelor (terminali, neterminali,
+paranteze, etc.) duce la o eroare sintactica. Daca nu exista eroare sintactica
+se verifica multimile V, E, R, S sa nu existe erori semantice. Daca nu exista
+erori semantice, se incepe algoritmul corespunzatorul argumentului primit de
+program. Pentru acesti algoritmi am urmat intocmai instructiunile din PDF-ul cu
+cerinta temei.
